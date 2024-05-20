@@ -9,7 +9,7 @@ Inference is then performed on final model and hypothesis tests are performed to
 
 ## Analysis
 
-- To select a suitable subset ofvariables from the available predictors, model selection was performed using *LASSO* and *forward stepwise regression* techniques.
+- To select a suitable subset of variables from the available predictors, model selection was performed using *LASSO* and *forward stepwise regression* techniques.
 - The final model was then selected according to the *Akaike's Information Criterion* together with insights extracted through the data exploration procedure.
 - Lastly, the selected model was refitted on the inference set and the statistical significance of each included variable was determined.
 - To account for the effects of multiple testing, *Bonferroni's Procedure* was utilised to control the amount of false positives.
